@@ -17,7 +17,7 @@ create table products(
 	product_id int not null auto_increment primary key,
     nome VARCHAR (50), 
     descricao VARCHAR (155),
-    price VARCHAR (05),
+    price VARCHAR (5),
     quantity INT
 );
 
